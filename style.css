@@ -39,10 +39,21 @@ h4 {
 
 p {
     text-align: justify;
-    text-indent: 1em;
+    text-indent: 1rem;
     font-size: 24px;
-    padding: 1em 1em 0 1em;
+    padding: 2rem 2rem 0 2rem;
     margin-bottom: 0;
+}
+
+.BackToTop {
+    margin: 0 0 0 80%;
+    padding: 0;
+}
+
+.resume {
+    float: right;
+    padding: 0;
+    margin-right: 2rem;
 }
 
 .bottom {
@@ -154,6 +165,7 @@ a:active {
 
 img#rana {
     float: right;
+    padding-right: 2rem;
 }
 
 nav#ContactMe {
