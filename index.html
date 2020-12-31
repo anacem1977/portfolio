@@ -8,17 +8,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 <body>
-
-    <!--w3schools.com-->
-    <button id="modalButton">Contact me!</button>
-    <div id="myModal" class="modal">
-        <div class="modalContent">
-            <span class="close">&times;</span>
-            <p id="textInModal">Text inside modal</p>
-        </div>
-    </div>
-    <!--w3schools.com-->
-    
     <nav id="top">
         <ul>
             <li><a href="#WhoAmI">Who</a></li>
@@ -107,7 +96,7 @@
         <h3 id="WhereAmI">Where am I?</h3>
         <nav id="ContactMe">
             <ul>
-                <li><img src="images/contact copy.png" alt="Contact" width= 50rem></li>
+                <li><img id="modalButton" src="images/contact copy.png" alt="Contact" width= 50rem></li>
                 <li>
                     <a href="mailto:anacecilia.maldonado@me.com">
                         <img src="images/email.png" alt="e-mail" width= 50rem>
@@ -131,6 +120,22 @@
             </ul>
         </nav>
     </footer>
+
+        <!--w3schools.com-->
+        <div id="myModal" class="modal">
+            <div class="modalContent">
+                <span class="close">&times;</span>
+                <p id="textInModal">Want more information?</p><br>
+                <form>
+                    <label for="mail">e-mail:</label><br>
+                    <input type="email" id="mail"><br>
+                    <label for="feedback">Questions or comments:</label><br>
+                    <input type="text" id="feedback"><br>
+                    <input type="submit" id="submitButton">
+                </form>
+            </div>
+        </div>
+
     <script src="script.js"></script>
 
 </body>

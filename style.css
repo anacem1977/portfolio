@@ -177,29 +177,30 @@ nav#ContactMe {
     display: none;
     position: fixed;
     z-index: 1;
-    padding-top: 25%;
-    left: 0;
-    top: 0;
+    padding-top: 10%;
+    left: 25%;
+    top: 25%;
     width: 50%;
     height: 50%;
     overflow: auto;
-    background-color: rgba(234, 242, 15, 0.4);
+    background-color: rgba(234, 242, 15, 0.6);
+    border: 2px solid #191919;
 }
 
 .modalContent {
     background-color: #191919;
     color: #ffffff;
     margin: auto;
-    padding: 20px;
-    border: 1px solid #ebf20f;
+    padding: 1rem;
+    border: 2px solid #ebf20f;
     width: 80%;
 }
 
 .close {
-    color: #696969;
+    color: #e1e1e1;
     float: right;
     font-size: 28px;
-    font-weight: bold;
+    line-height: 20px;
 }
 
 .close:hover {
@@ -208,3 +209,40 @@ nav#ContactMe {
     cursor: pointer;
 }
 /*w3schools.com*/
+
+#textInModal {
+    text-align: left;
+    text-indent: 0;
+    font-size: 20px;
+    margin: auto;
+}
+
+#modalButton:hover {
+    cursor: pointer;
+}
+
+#submitButton {
+    text-decoration: none;
+    background: #191919;
+    padding-top: 1rem;
+    border-radius: 5px;
+    color: #ebf20f;
+    border: none;
+    font-size: 16px;
+}
+
+#submitButton:link, #submitButton:visited {
+    color: #ebf20f;
+}
+
+#submitButton:hover {
+    background: #ebf20f;
+    color: #191919;
+    cursor: pointer;
+}
+
+#submitButton:active {
+    background: #191919;
+    color: #ffffff;
+    text-decoration: underline solid #ebf20f;
+}
