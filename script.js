@@ -1,19 +1,17 @@
-document.getElementById("name").addEventListener("wheel", nickName("ANA CECILIA"));
+console.log("Up and running");
 
-document.getElementById("name").addEventListener("wheel", originalName);
-
-function originalName() {
-    let display = document.getElementById("name");
-    display.innerHTML = "";
-    display.innerHTML = "ANACÉ";
+//w3schools.com
+let modal=document.getElementById("myModal");
+let button=document.getElementById("modalButton");
+let span=document.getElementsByClassName("close")[0];
+modalButton.onclick = function() {
+    modal.style.display="block";
 }
-
-function nickName(text) {
-    let display = document.getElementById("name");
-    display.innerHTML = "";
-    display.innerHTML = text;
+span.onclick = function() {
+    modal.style.display = "none";
 }
-
-
-
-console.log(rana);
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
