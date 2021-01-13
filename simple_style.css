@@ -1,0 +1,33 @@
+body {
+    background: #191919;
+    color: #ffffff;
+    font-family: 'Varela', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    font-size: 18px;
+    color: #ffdf00;
+    padding: 1rem;
+}
+
+a:link, a:visited {
+    color: #ebf20f;
+    text-decoration: none;
+}
+
+a:hover {
+    background: #ebf20f;
+    color: #191919;
+    border-radius: 3px;
+    padding: 0.5rem;
+}
+
+a:active {
+    background: #191919;
+    color: #ffffff;
+}

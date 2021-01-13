@@ -125,11 +125,6 @@ nav #ContactMe {
     padding-bottom: 1rem;
 }
 
-.even {
-    background-color: #191919;
-    color: #ffffff;
-}
-
 .odd {
     background-color: #191919;
     color: #ffffff;
@@ -165,12 +160,14 @@ a:active {
 img#rana {
     float: right;
     padding-right: 2rem;
+    max-width: 350px;
 }
 
 nav#ContactMe {
     display: flex;
     justify-content: space-around;
 }
+
 /*w3schools.com*/
 .modal {
     display: none;
@@ -249,4 +246,34 @@ nav#ContactMe {
 #feedback {
     width: 100%;
     height: 5rem;
+}
+
+@media screen and (max-width: 810px) {
+    #hello {
+        font-size: 22px;
+    }
+    #name {
+        font-size: 28px;
+    }
+    img#rana {
+        max-width: 200px; 
+    }
+    img.star {
+        max-width: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #hello {
+        font-size: 12px;
+    }
+    #name {
+        font-size: 14px;
+    }
+    img#rana {
+        max-width: 150px; 
+    }
+    img.star {
+        max-width: 20px;
+    }
 }
